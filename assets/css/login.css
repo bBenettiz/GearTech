@@ -1,0 +1,139 @@
+.register {
+    margin-bottom: 28px;
+}
+
+.register .box-login{
+    padding: 0;
+}
+
+.register .card form input {
+    margin-bottom: 32px;
+}
+
+
+section .box-login {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+section .card {
+    width: 100%;
+    max-width: 506px;
+    background-color: var(--cardBackground);
+    padding: 15px 0px;
+    border-radius: 15px;
+    box-shadow: var(--shadow);
+}
+
+section .card h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+section .card h2 span{
+    color: var(--secondary);
+}
+
+section .card form {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 30px;
+}
+
+section .card form label {
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-bottom: 10px;
+    font-size: 17px;
+}
+
+section .card form input {
+    background-color: var(--background);
+    border: none;
+    padding: 15px 15px;
+    font-size: 15px;
+    margin-bottom: 49px;
+    outline: none;
+    border-radius: 3px;
+}
+
+section .card form #password {
+    margin-bottom: 25px;
+}
+
+section .forgot-password {
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+section .forgot-password img{
+    width: 14px;
+    margin-right: 5px;
+}
+
+section .forgot-password a {
+    color: var(--secondary);
+    text-decoration: none;
+    font-size: 15px;
+}   
+
+section .forgot-password a:hover {
+    text-decoration: underline;
+}
+
+section .card button {
+    border-radius: 5px;
+    background-color: var(--secondary);
+    border: 1px solid var(--secondary);
+    color: var(--white);
+    font-weight: 700;
+    padding: 12px 0px;
+    font-size: 18px;
+}
+
+section .card button:hover {
+    opacity: 0.9;
+}
+
+.btn-register {
+    margin-top: 15px;
+    margin-bottom: 22px;
+}
+
+section .create-an-account {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+section .create-an-account a {
+    text-decoration: none;
+    color: var(--secondary);
+    font-weight: 600;
+}
+
+section .create-an-account a:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 576px) {
+
+    .card {
+        margin-top: 30px;
+    }
+
+    .register .card h2 {
+        font-size: 20px;
+    }
+
+    section .card form {
+        padding: 0px 18px;
+    }
+}

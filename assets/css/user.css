@@ -1,0 +1,99 @@
+.user {
+    padding-top: 40px;
+}
+
+.title-user h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.box-user {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.card-user {
+    background-color: var(--cardBackground);
+    box-shadow: var(--shadow);
+    border-radius: 15px;
+    width: 100%;
+    max-width: 555px;
+    padding: 25px 20px;
+}
+
+.pessoal {
+    max-height: 371px;
+    height: 100%;
+}
+
+.card-user h2 {
+    color: var(--secondary);
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+
+.user-data {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-data label {
+    font-size: 17px;
+    margin-bottom: 12px;
+    font-weight: 500;
+}
+
+.user-data input {
+    background-color: var(--background);
+    border: none;
+    outline: none;
+    padding: 14px 8px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+span {
+    color: var(--secondary);
+}
+
+.card-user button {
+    background-color: var(--secondary);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 17px;
+    padding: 12px;
+    font-weight: 700;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 576px) {
+    .user {
+        padding: 0px 10px;
+        margin-bottom: 30px;
+    }
+
+    .box-user {
+        flex-direction: column;
+    }
+
+    .title-user h2 {
+        font-size: 25px;
+        margin-top: 30px;
+    }
+
+    .card-user h2 {
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+
+    .title-user {
+        padding: 0;
+    }
+}

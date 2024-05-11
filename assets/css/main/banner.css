@@ -1,0 +1,82 @@
+section .area-banner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 74px;
+    padding-bottom: 90px;
+}
+
+section .left-side {
+    max-width: 520px;
+    width: 100%;
+}
+
+section .left-side h2 {
+    font-size: 3.2rem;
+    font-weight: 900;
+}
+
+section .left-side p {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--third);
+    padding-top: 30px;
+}
+
+section .left-side h2 span {
+    color: var(--secondary);
+}
+
+section .right-side {
+    padding-left: 20px;
+}
+
+section .right-side {
+    max-width: 645px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+section .right-side img {
+   width: 100%;
+}
+
+@media (min-width: 490px)and (max-width: 1024px) {
+    section .left-side h2 {
+        font-size: 2.5rem; 
+    }
+
+    section .left-side p {
+        font-size: 0.95rem; 
+        padding-top: 25px; 
+    }
+}
+
+
+
+@media (max-width: 670px) {
+    section .area-banner {
+        flex-direction: column;
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+    section .left-side {
+        width: 85%;
+        padding: 0 10px;
+    }
+
+    section .left-side h2 {
+        font-size: 48px;
+        line-height: 1.2;
+    }
+
+    section .left-side p {
+        font-size: 18px;
+        padding-top: 18px;
+    }
+
+    section .right-side {
+        display: none;
+    }
+}
