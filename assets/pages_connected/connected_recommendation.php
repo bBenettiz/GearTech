@@ -48,7 +48,7 @@ if (!isset($_SESSION['nome'])) {
             </div>
             <nav>
                 <ul>
-                    <li><a href="">Catálogo</a></li>
+                    <li><a href="/GearTech/assets/pages_connected/connected_catalog.php">Catálogo</a></li>
                     <li><a href="">Manutenções</a></li>
                     <li>
                         <div class="user-enter">
@@ -87,7 +87,7 @@ if (!isset($_SESSION['nome'])) {
 
                     <img src="<?php 
                         echo $carro['urlCarro'] . $carro['idIden'];
-                    ?>.jpg" alt=>
+                    ?>.png" alt=>
 
                     <?php 
 
