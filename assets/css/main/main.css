@@ -30,6 +30,39 @@ body {
 
 .pagination{
     padding-top: 60px;
-    color: black;
+}
 
+.box-pagination a{
+    color: black;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 1rem;
+   
+}
+
+.box-pagination a:hover{
+    transition: 0.2s;
+    color: #ff0000;
+    padding: 0px 10px;
+    font-weight: 500;
+}
+
+.logotypes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.NoCar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CarFY{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
