@@ -1,0 +1,136 @@
+footer {
+    background-color: var(--secondary);
+    width: 100%;
+    position: relative;
+    margin-top: auto;
+}
+
+.box-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+
+}
+
+.left-side-footer {
+    width: 100%;
+} 
+
+.right-side-footer {
+    width: 100%;
+} 
+
+.left-side-footer .links a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 17px;
+    padding-right: 23px;
+    text-align: center;
+}
+
+.left-side-footer .links a:hover {
+    text-decoration: underline;
+    transition: 0.2s;
+}
+
+.social-icons-footer {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.social-icons-footer img {
+    margin-right: 12px;
+}
+
+.mail-footer {
+    color: var(--white);
+    font-size: 15px;
+    padding-top: 7px;
+    font-weight: 500;
+}
+
+.right-side-footer h2 {
+    color: var(--white);
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.right-side-footer p {
+    color: var(--white);
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+}
+
+.copy a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+@media (max-width: 480px) {
+    .box-footer {
+        flex-direction: column;
+        padding: 25px 0px;
+    }
+
+    .left-side-footer .links {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+    }
+
+    .left-side-footer .links a {
+        font-size: 17px;
+        padding: 0;
+    }
+
+    .social-icons-footer img {
+        width: 60%;
+    }
+
+    .right-side-footer {
+        padding-top: 54px;
+    }
+
+    .right-side-footer h2 {
+        font-size: 17px;
+    }
+
+    .right-side-footer p {
+        font-size: 15px;
+        line-height: 1.8;
+    }
+
+    .copy a {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .box-footer {
+        flex-direction: column;
+        padding: 25px 0px;
+    }
+
+    .left-side-footer .links {
+        justify-content: center;
+    }
+
+    .left-side-footer .links a {
+        font-size: 17px;
+    }
+
+    .right-side-footer {
+        padding-top: 40px;
+    }
+}

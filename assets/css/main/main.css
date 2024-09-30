@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    background-color: var(--background);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
+}
+
+.container {
+    width: 90%;
+    max-width: 1240px;
+    margin: auto;
+}
+
+
+.caixa {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.caixa-grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.pagination{
+    padding-top: 60px;
+}
+
+.box-pagination a{
+    color: black;
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 1rem;
+   
+}
+
+.box-pagination a:hover{
+    transition: 0.2s;
+    color: #ff0000;
+    padding: 0px 10px;
+    font-weight: 500;
+}
+
+
+.logotypes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 60px;
+}
+
+.NoCar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.CarFY{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.error-register{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 8px;
+}
+
+
+.error-register-index{
+    padding-bottom: 10px;
+}
+
+.card-recomendation{
+    background-color: black;
+}

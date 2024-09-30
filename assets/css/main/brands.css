@@ -1,0 +1,41 @@
+.brands {
+    background-color: var(--secondary);
+}
+
+.flex-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.logotipos {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 40px;
+    align-items: center;
+}
+
+
+.logotipos img {
+    max-width: 90%; 
+    height: auto;
+}
+
+@media (max-width: 668px) {
+
+    .flex-logo {
+        padding: 5px 0px;
+    }
+
+    .logotipos {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 0;
+    }
+
+    .logotipos img {
+        width: 46%;
+        place-self: center;
+        padding: 10px 0px;
+    }
+}
